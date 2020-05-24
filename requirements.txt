@@ -15,6 +15,7 @@ six==1.15.0
 starlette==0.13.4
 typing-extensions==3.7.4.2
 urllib3==1.25.9
+uuid==1.30
 uvicorn==0.11.5
 websockets==8.1
 Werkzeug==1.0.1

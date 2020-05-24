@@ -1,1 +1,0 @@
-# Flask_Ariadne_Graphql_Learn
