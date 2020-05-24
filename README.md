@@ -1,4 +1,4 @@
-Hello, this is a simple implementation of a Flask API implementing Graphql with Ariadne.
+Hello, this is a simple implementation of a Graphql using Flask and Ariadne.
 
 It basically follows the implementation of the flask.
 
