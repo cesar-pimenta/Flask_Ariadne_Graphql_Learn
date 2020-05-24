@@ -63,7 +63,7 @@ def resolve_students(_, info):
     return DB['students']
 
 
-def resolve_user_create(_, info, age, idade):
+def resolve_user_create(_, info, name, age):
     user= User(name, age).response()
     DB['users'].append(user)
     return user
