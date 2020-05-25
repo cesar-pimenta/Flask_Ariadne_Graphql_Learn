@@ -19,5 +19,8 @@ due to the api_github usage guidelines,
 we have a limit of 60 requests without authentication, 
 so the next steps are to implement this and have numerous requests.
 In this sense, I used try, to generalize errors in requests
+and also I didn’t use any more robust configuration settings for heroku, 
+as this implementation doesn’t contain sensitive data yet, 
+and the github data itself is public
 
 and here's the implementation on heroku, https://flask-ariadne-graphql.herokuapp.com/graphql
