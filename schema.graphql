@@ -1,34 +1,12 @@
 type Query {
-    studentById(_id: String!): Student
-    classById(_id: String!): Class
-    students: [Student]
-    classes: [Class]
-    users: [User]
+    githubListReposName(_username: String!): [String!]
+    githubSearchUser(_username: String!): String!
+    githubReposInfo(_username: String! _repos: String!):[String!] 
+    githubReposInfoOptions(_username: String! _repos: String! _options: String): String!
 }
 
-type Mutation {
-    createStudent(name: String!): Student
-    createClass(name: String!): Class
-    addStudentToClass(class_id: String!, student_id: String!): Class
-    createUser(
-        name: String
-        age: Int
-    ): User!
-}
+# type Mutation {
 
-type Student {
-    id: String!
-    name: String!
-}
+# }
 
-type Class {
-    id: String!
-    name: String!
-    students: [Student!]
-}
 
-type User {
-    id: String!
-    name: String!
-    age: Int
-}
