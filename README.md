@@ -14,4 +14,10 @@ as it is what heroku reads to execute.
 
 Next steps are to create mutations to use the API's Auth and create repositories, via mutation.
 
+It is also necessary to warn that, 
+due to the api_github usage guidelines, 
+we have a limit of 60 requests without authentication, 
+so the next steps are to implement this and have numerous requests.
+In this sense, I used try, to generalize errors in requests
+
 and here's the implementation on heroku, https://flask-ariadne-graphql.herokuapp.com/graphql
