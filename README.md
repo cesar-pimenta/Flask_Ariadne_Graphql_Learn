@@ -1,4 +1,4 @@
-Hi guys,
+# Hi guys :sunglasses:
 
 This is an implementation of Graphql using Ariadne, and Flask with for wsgi, and that can be hosted on heroku.
 
@@ -23,4 +23,4 @@ and also I didn’t use any more robust configuration settings for heroku,
 as this implementation doesn’t contain sensitive data yet, 
 and the github data itself is public
 
-and here's the implementation on heroku, https://flask-ariadne-graphql.herokuapp.com/graphql
+and here's the implementation on heroku, [Click here](https://flask-ariadne-graphql.herokuapp.com/graphql)
